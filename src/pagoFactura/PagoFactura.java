@@ -7,20 +7,20 @@ package pagoFactura;
 import java.util.Scanner;
 
 public class PagoFactura {
-	private static Scanner producto;
-
-	public static void main(String[] args) {
+	
+		public static void main(String[] args) {
 		// declaración de variables
 		float neto;
 		float bruto;
 		float iva = 0.19f;
 		//lectura de datos
-		producto = new Scanner(System.in);
+		Scanner producto = new Scanner(System.in);
 		System.out.println("Ingrese valor del producto: ");
 		neto = producto.nextFloat();
 		// calculo del iva
 		bruto = (neto * iva) + neto;
 		// despliegue de resultado
 		System.out.println("El resultado es: " + bruto);
+		producto.close();
 	}
 }
