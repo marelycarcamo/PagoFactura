@@ -1,0 +1,21 @@
+# Cálculo de Factura
+Este repositorio contiene un programa en Java llamado PagoFactura. Este programa se utiliza para calcular el valor bruto de una factura a partir del valor neto de un producto, considerando un impuesto al valor agregado (IVA) del 19%.
+
+## Descripción
+El programa PagoFactura realiza las siguientes operaciones:
+
+Lectura de datos: Solicita al usuario que ingrese el valor neto del producto.
+
+Cálculo del IVA: Calcula el valor del IVA multiplicando el valor neto del producto por la tasa del IVA (19%).
+
+Cálculo del valor bruto: Suma el valor neto del producto y el valor del IVA para obtener el valor bruto de la factura.
+
+Despliegue del resultado: Muestra el valor bruto de la factura.
+
+El programa utiliza la clase Scanner de Java para leer la entrada del usuario. También maneja los valores de punto flotante para los cálculos.
+
+## Cómo ejecutar el programa
+Para ejecutar el programa, necesitas tener instalado Java en tu máquina. Luego, puedes compilar y ejecutar el programa utilizando los siguientes comandos en la terminal:
+````
+javac PagoFactura.java
+java PagoFactura
