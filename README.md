@@ -8,9 +8,9 @@
 
 <li><p align="justify">Cálculo del IVA: Calcula el valor del IVA multiplicando el valor neto del producto por la tasa del IVA (19%).</p></li>
 
-li><p align="justify">Cálculo del valor bruto: Suma el valor neto del producto y el valor del IVA para obtener el valor bruto de la factura.</p></li>
+<li><p align="justify">Cálculo del valor bruto: Suma el valor neto del producto y el valor del IVA para obtener el valor bruto de la factura.</p></li>
 
-Despliegue del resultado: Muestra el valor bruto de la factura.
+<li><p align="justify">liDespliegue del resultado: Muestra el valor bruto de la factura.</p></li>
 </ul>
 <p align="justify">El programa utiliza la clase Scanner de Java para leer la entrada del usuario. También maneja los valores de punto flotante para los cálculos.</p>
 
