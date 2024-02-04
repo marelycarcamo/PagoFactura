@@ -3,16 +3,16 @@
 
 ## Descripción
 <p align="justify">El programa PagoFactura realiza las siguientes operaciones:</p>
+<ul>
+<li><p align="justify"><style="bold"Lectura de datos:> Solicita al usuario que ingrese el valor neto del producto.</p></li>
 
-- <p align="justify"><style="bold"Lectura de datos:> Solicita al usuario que ingrese el valor neto del producto.</p>
+<li><p align="justify">Cálculo del IVA: Calcula el valor del IVA multiplicando el valor neto del producto por la tasa del IVA (19%).</p></li>
 
-- Cálculo del IVA: Calcula el valor del IVA multiplicando el valor neto del producto por la tasa del IVA (19%).
+li><p align="justify">Cálculo del valor bruto: Suma el valor neto del producto y el valor del IVA para obtener el valor bruto de la factura.</p></li>
 
-- Cálculo del valor bruto: Suma el valor neto del producto y el valor del IVA para obtener el valor bruto de la factura.
-
-- Despliegue del resultado: Muestra el valor bruto de la factura.
-
-El programa utiliza la clase Scanner de Java para leer la entrada del usuario. También maneja los valores de punto flotante para los cálculos.
+Despliegue del resultado: Muestra el valor bruto de la factura.
+</ul>
+<p align="justify">El programa utiliza la clase Scanner de Java para leer la entrada del usuario. También maneja los valores de punto flotante para los cálculos.</p>
 
 ## Cómo ejecutar el programa
 <p align="justify">Para ejecutar el programa, necesitas tener instalado Java en tu máquina. Luego, puedes compilar y ejecutar el programa utilizando los siguientes comandos en la terminal:</p>
